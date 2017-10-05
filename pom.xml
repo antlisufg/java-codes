@@ -4,6 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+         <name>com.github.antlisufg:java-codes</name>
+         
     <groupId>com.github.lihengming</groupId>
     <artifactId>java-codes</artifactId>
     <packaging>pom</packaging>
@@ -19,6 +21,11 @@
         <module>design-pattern</module>
     </modules>
 
+    <scm>
+        <connection>scm:git:git@github.com:antlisufg/java-codes.git</connection>
+        <developerConnection>scm:git:git@github.com:antlisufg/java-codes.git</developerConnection>
+        <url>https://github.com/antlisufg/java-codes</url>
+    </scm>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
